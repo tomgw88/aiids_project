@@ -61,6 +61,4 @@ if __name__ == "__main__":
     for subset in ds.data_split(0.8, 0.1, 0.1):
         print(f"Ilość elementów w zbiorze: {len(subset)}")
 
-git add winequality-red.csv
-git commit -m "Add data files"
-git push
+
